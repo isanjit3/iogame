@@ -13,12 +13,12 @@ io.on('connection', (socket) => {
     socket.on("inputs", function(data){
         
     })
-
 });
 
 app.use('/', express.static('web'))
 
 
+// Adding variable delta for unstable server ticks
 const hrtimeMs = function() {
     let time = process.hrtime()
     return time[0] * 1000 + time[1] / 1000000
@@ -32,7 +32,7 @@ let tickLengthMs = 1000 / TICK_DELTA
 function gameLoop(delta){
     setTimeout(gameLoop, tickLengthMs)
     let now = hrtimeMs();
-    let delta = (now - previous) / 1000
+    delta = (now - previous) / 1000
     console.log('delta', delta)
     // game logic would go here
 
@@ -43,7 +43,6 @@ function gameLoop(delta){
     // send the new game state to the players
     previous = now
     tick++
-
 }
 
 server.listen(3000, () => {

@@ -22,5 +22,3 @@ IO Game Howto
 https://www.gabrielgambetta.com/client-server-game-architecture.html
 - Real-time Multiplayer
 http://buildnewgames.com/real-time-multiplayer/
-
-
