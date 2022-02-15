@@ -1,0 +1,26 @@
+Socket.io
+- Getting Started:
+https://socket.io/get-started/chat
+- Using Socket.io for first game
+https://devdojo.com/dennis/use-socketio-to-build-a-game
+
+Game Resources
+- Client Side Interpolation
+https://www.kinematicsoup.com/news/2017/5/30/multiplayerprediction
+- 2D Visibility
+https://www.redblobgames.com/articles/visibility/
+- PixiJS
+https://pixijs.io/guides/basics/getting-started.html
+- timetocode Game Loop
+https://github.com/timetocode/node-game-loop
+- AABB Intersection Test
+https://noonat.github.io/intersect/#aabb-vs-aabb
+
+
+IO Game Howto
+- Fast-Paced Multiplayer
+https://www.gabrielgambetta.com/client-server-game-architecture.html
+- Real-time Multiplayer
+http://buildnewgames.com/real-time-multiplayer/
+
+
